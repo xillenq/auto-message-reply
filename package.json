@@ -1,0 +1,7 @@
+{
+  "main": "app.js",
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "ws": "^8.8.1"
+  }
+}
