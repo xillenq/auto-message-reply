@@ -4,9 +4,9 @@ const sleep = (milliseconds) => {
 	return new Promise((resolve) => setTimeout(resolve, milliseconds));
 };
 
-const token = "TVOJ TOKEN";
-const target = "ID OD KOGA HOCES BULLY";
-const message = "Hello Samir!";
+const token = "YOUR TOKEN";
+const target = "ID OF MEMBER";
+const message = "YOUR AUTO REPLY MESSAGE";
 
 function recursion() {
 	let ws = new WebSocket("wss://gateway.discord.gg/?v=10&encording=json");
